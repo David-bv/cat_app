@@ -1,4 +1,4 @@
-#Cat_app
+# Cat_app
 
 Es una aplicacion donde podemos realizar conocer algo acerca nuestros amigos gatunos.
 Una Realizada con las siguientes tecnologias.
