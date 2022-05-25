@@ -62,3 +62,7 @@ span{
     margin:30px;
     padding:0;
 }
+.spanUno{
+   border: 2px black solid;
+   padding:10px 15px;
+}
