@@ -1,4 +1,4 @@
-import React,{ useEffect, useState }  from 'react'
+import React,{ useState }  from 'react'
 import { url } from '../helpers/endpoint';
 
 const RequestCat = () => {
@@ -8,17 +8,13 @@ const RequestCat = () => {
     const getCatData = async() => {
         const resp = await fetch(url)  
         const data  = await resp.json()
-        console.log(data);
+        console.log(data[0]);
         setCat(data[0].url);
     }
     
     const handleRequest = () => { 
         getCatData()
     }
-
-    useEffect(() => {
-        handleRequest()
-      }, []);
 
   return (
     <div>
