@@ -1,3 +1,14 @@
+#Cat_app
+
+Es una aplicacion donde podemos realizar conocer algo acerca nuestros amigos gatunos.
+Una Realizada con las siguientes tecnologias.
+
+* React
+* HTML
+* CSS
+* Javascrip
+* Cloudinary
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
