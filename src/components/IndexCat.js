@@ -1,7 +1,9 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
+import RequestCat from "./RequestCat";
 import "../styles/IndexCat.css";
 import Footer from "./Footer";
+
 
 const IndexCat = () => {
   return (
@@ -14,11 +16,12 @@ const IndexCat = () => {
           <Nav.Link eventKey="link-1">Aprende algo De nosotros</Nav.Link>
         </Nav.Item>
       </Nav>
-      <div className="imagen">
-      </div>
+    </div>
 
+        
+      <RequestCat/>
+      <div className="imagen"> </div>
       <span>¿Sabias Que?</span>
-
       <p className="parrafo1">En términos de desarrollo, el primer año de vida de un gato es igual a los primeros 15 años de una vida humana. Después de su segundo año, un gato tiene 25 años equivalentes al de un humano. Y después de los dos años, cada año de vida de un gato equivale a unos 7 años humanos.</p>
       <p className="parrafo2">Los gatos pueden rotar sus orejas 180 grados.</p>
       <p className="parrafo3">La audición del gato promedio es al menos cinco veces más aguda que la de un adulto humano.</p>
@@ -29,8 +32,6 @@ const IndexCat = () => {
 
       <span className="spanUno">¡Vamos!Ahora quiero que interactues con nosotros</span>
       <Footer/>
-    </div>
-    
   );
 };
 
