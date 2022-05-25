@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
+import { Mostrar } from '../components/Mostrar';
 
 const IndexCat = () => {
   return (
@@ -15,6 +16,8 @@ const IndexCat = () => {
           <Nav.Link eventKey="link-2">Link</Nav.Link>
         </Nav.Item>
       </Nav>
+
+      <Mostrar />
     </div>
   );
 };
