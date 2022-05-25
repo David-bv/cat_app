@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import AppRouter from './routers/AppRouter';
+import "react-bootstrap"
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
