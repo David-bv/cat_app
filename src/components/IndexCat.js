@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 import "../styles/IndexCat.css";
+import Footer from "./Footer";
 
 const IndexCat = () => {
   return (
@@ -25,7 +26,9 @@ const IndexCat = () => {
       <p className="parrafo5">Los gatos domésticos pasan cerca del 70 por ciento del día durmiendo, y 15 por ciento del día acicalándose.</p>
       <p className="parrafo6">Los gatos tienen cinco dedos en cada pata delantera, pero sólo cuatro en la parte posterior. Sin embargo, no es raro que los gatos tengan dedos extra. ¡El gato con la mayor cantidad de dedos conocidos tenía 32, ocho en cada pata!</p>
       <p className="parrafo7">Los maullidos no son un lenguaje innato para gatos: ¡los desarrollaron para comunicarse con los humanos!</p>
+      <Footer/>
     </div>
+    
   );
 };
 
