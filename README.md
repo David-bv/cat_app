@@ -1,13 +1,15 @@
 # Cat_app
 
-Es una aplicacion donde podemos realizar conocer algo acerca nuestros amigos gatunos.
-Una Realizada con las siguientes tecnologias.
+Es una aplicacion donde conoceremos mas acerca nuestros amigos gatunos y una app donde tambien podemos interactuar. 
+Aplicacion Realizada con las siguientes tecnologias.
 
 * React
 * HTML
 * CSS
 * Javascrip
 * Cloudinary
+
+
 
 # Getting Started with Create React App
 
