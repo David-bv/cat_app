@@ -1,0 +1,64 @@
+.container-menu{
+
+    padding-top:20px;
+    padding-bottom: 20px;
+    color: white important;
+    align-items: center;
+}
+.imagen {
+    width: 100%;
+    height: 65.3vh;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%),url('https://res.cloudinary.com/do2ijjhfn/image/upload/v1653498458/istockphoto-976196706-170667a_uxi2fj.jpg');
+    background-size: cover;
+    
+}
+.mensaje{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color:white;
+    padding-bottom: 30px;
+}
+
+span{
+    font-size: 3em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+   
+}
+.parrafo1{
+    font-size: 1.2em;
+    margin:30px;
+    padding:0;
+
+}
+.parrafo2{
+    font-size: 1.2em;
+    padding:0;
+    background-color: rgba(137, 43, 226, 0.234);
+    padding:30px 40px;
+}
+.parrafo3{
+    font-size: 1.2em;
+    margin:30px;
+    padding:0;
+}
+.parrafo4{
+    font-size: 1.2em;
+    padding:0;
+    background-color: rgba(174, 226, 43, 0.214);
+    padding:30px 40px;
+}
+.parrafo5{
+    font-size: 1.2em;
+    margin:30px;
+    padding:0;
+}
+.parrafo6{
+    font-size: 1.2em;
+    padding:0;
+    background-color: rgba(226, 119, 43, 0.331);
+    padding:30px 40px;
+}
+.parrafo7{
+    font-size: 1.2em;
+    margin:30px;
+    padding:0;
+}
